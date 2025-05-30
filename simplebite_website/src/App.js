@@ -611,7 +611,7 @@ function App() {
         padding: '24px 0 12px 0',
         marginTop: '60px'
       }}>
-        SimpleBite © {new Date().getFullYear()} &mdash; Recipes for everyone ❤️
+        bachelor's cooking © {new Date().getFullYear()} &mdash; Recipes for everyone ❤️
       </footer>
     </div>
   );
