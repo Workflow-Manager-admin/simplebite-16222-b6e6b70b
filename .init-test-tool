@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/simplebite-16222-b6e6b70b/simplebite_website"
+}
