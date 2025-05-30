@@ -473,7 +473,7 @@ const categories = [
 
 // PUBLIC_INTERFACE
 function App() {
-  // SimpleBite Home Main Container
+  // bachelor's cooking Home Main Container
   // Add state for selected category tab
   const [selectedCategory, setSelectedCategory] = useState(categories[0].key);
 
@@ -504,7 +504,7 @@ function App() {
           <span role="img" aria-label="bite" style={{ fontSize: '2.6rem', color: '#fff170' }}>
             🍳
           </span>
-          SimpleBite
+          bachelor's cooking
         </div>
         <div
           className="simplebite-description"
