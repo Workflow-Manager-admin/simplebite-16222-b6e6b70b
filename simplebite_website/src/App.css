@@ -96,6 +96,23 @@
 
 .simplebite-category-link {
   cursor: pointer;
+  background: rgba(255,214,0,0.12);
+  color: #222;
+  border: none;
+  outline: none;
+  transition: background 0.15s, color 0.13s;
+}
+
+/* Visibly highlight the selected tab (for button .simplebite-category-link) */
+.simplebite-category-link[aria-selected="true"] {
+  background: #FFD600 !important;
+  color: #fff !important;
+}
+
+/* Subtle hover for unselected tabs */
+.simplebite-category-link:not([aria-selected="true"]):hover {
+  background: #ffe450 !important;
+  color: #222 !important;
 }
 
 .simplebite-category-link:active {
