@@ -473,7 +473,7 @@ const categories = [
 
 // PUBLIC_INTERFACE
 function App() {
-  // bachelor's cooking Home Main Container
+  // Bachelor's Cooking Home Main Container
   // Add state for selected category tab
   const [selectedCategory, setSelectedCategory] = useState(categories[0].key);
 
@@ -504,7 +504,7 @@ function App() {
           <span role="img" aria-label="bite" style={{ fontSize: '2.6rem', color: '#fff170' }}>
             🍳
           </span>
-          bachelor's cooking
+          {"Bachelor's Cooking"}
         </div>
         <div
           className="simplebite-description"
@@ -611,7 +611,7 @@ function App() {
         padding: '24px 0 12px 0',
         marginTop: '60px'
       }}>
-        bachelor's cooking © {new Date().getFullYear()} &mdash; Recipes for everyone ❤️
+        {"Bachelor's Cooking"} © {new Date().getFullYear()} &mdash; Recipes for everyone ❤️
       </footer>
     </div>
   );
